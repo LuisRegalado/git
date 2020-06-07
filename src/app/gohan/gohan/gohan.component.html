@@ -1,0 +1,14 @@
+<div class="gohanComp">
+  <div class="row">
+    <h3 class="pl-3 titulo">Soy Gohan Componente hijo</h3>
+  </div>
+  Escribe el mensaje de Gohan a Goten
+  <input #msg name="msg" type="text" class="form-control" />
+  <button
+    type="button"
+    class="mt-2 btn btn-success"
+    (click)="enviarMensaje(msg.value)"
+  >
+    Enviar mensaje
+  </button>
+</div>
